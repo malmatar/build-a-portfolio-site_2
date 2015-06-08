@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Manya portfolio</title>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" >
+	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" >
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<main class="container">
+		<!--header-->
+		<header>
+			<section class="row">
+				<figure class="col-md-3">
+					<img  class="logo" src="images/logo.jpg" alt="Picture of Udacity logo">
+				</figure>
+				<section class="col-md-9 text-right text-uppercase">
+					<h1 class=" text-name text-thin">Manya Almatar</h1>
+					<h4>Web Developer</h4>
+				</section>
+			</section>
+			<!--banner-->
+			<section class="row">
+				<section class="col-md-12">
+					<hr>
+				</section>
+			</section>
+			<section class="row">
+				<figure class="col-md-12">
+					<img class="img-responsive banner-block" src="images/portfolio.jpg" alt="Picture of a portfolio">
+				</figure>
+			</section>
+			<section class="row">
+				<section class="col-md-12">
+					<h2 class="text-name">PROJECTS</h2>
+					<p>Click for details</p>
+				</section>
+			</section>
+		</header>
+
+<!--projects-->
+		<section class="row text-center">
+			<section class="col-sm-6 col-md-4 col-centered">
+				<figure class="thumbnail">
+					<a href="#">
+						<img class="img-responsive" src="images/resume.jpg" alt="Resume" data-toggle="modal" data-target="#resume-modal">
+					</a>
+					<h4 class="text-uppercase">Resume</h4>
+					<a href="https://github.com/malmatar" id="viewSource" target="_blank">View source on GitHub</a>
+				</figure>
+			</section>
+			<section class="col-sm-6 col-md-4 col-centered">
+				<figure class="thumbnail">
+					<a href="#">
+						<img class="img-responsive" src="images/arcade-game.jpg" alt="Arcade Game" data-toggle="modal" data-target="#arcade-modal">
+					</a>
+					<h4 class="text-uppercase">Arcade Game</h4>
+					<a href="https://github.com/malmatar" target="_blank">View source on GitHub</a>
+				</figure>
+			</section>
+			<section class="col-sm-6 col-md-4 col-centered">
+				<figure class="thumbnail">
+					<a href="#">
+						<img class="img-responsive" src="images/web-opt.jpg" alt="Web Optimization" data-toggle="modal" data-target="#opt-modal">
+					</a>
+					<h4 class="text-uppercase">Website Optimization</h4>
+					<a href="https://github.com/malmatar" target="_blank">View source on GitHub</a>
+				</figure>
+			</section>
+		</section>
+		<section class="row text-center">
+			<section class="col-sm-6 col-md-4 col-centered">
+				<figure class="thumbnail">
+					<a href="#">
+						<img class="img-responsive" src="images/map.jpg" alt="Neighborhood Map" data-toggle="modal" data-target="#map-modal">
+					</a>
+					<h4 class="text-uppercase">Neighborhood Map</h4>
+					<a href="https://github.com/malmatar" target="_blank">View source on GitHub</a>
+				</figure>
+			</section>
+			<section class="col-sm-6 col-md-4 col-centered">
+				<figure class="thumbnail">
+					<a href="#">
+						<img class="img-responsive" src="images/feed-reader.jpg" alt="Feed Reader Testing" data-toggle="modal" data-target="#feed-modal">
+					</a>
+					<h4 class="text-uppercase">Feed Reader Testing</h4>
+					<a href="https://github.com/malmatar" target="_blank">View source on GitHub</a>
+				</figure>
+			</section>
+			<section class="col-sm-6 col-md-4 col-centered">
+				<figure class="thumbnail">
+					<a href="#">
+						<img class="img-responsive" src="images/atm.jpg" alt="ATM" data-toggle="modal" data-target="#atm-modal">
+					</a>
+					<h4 class="text-uppercase">ATM Machine</h4>
+					<a href="https://github.com/malmatar" target="_blank">View source on GitHub</a>
+				</figure>
+			</section>
+		</section>
+	</main>
+
+<!--breack-->
+	<section class="row">
+		<section class="col-md-12">
+			<hr>
+		</section>
+	</section>
+	<section class="row">
+		<section class="col-md-12">
+			<hr>
+		</section>
+	</section>
+
+<!--bottom nave bar-->
+	<footer class="nav navbar-default navbar-custom navbar-fixed-bottom">
+		<a class="btn pull-center"  href="https://github.com/malmatar" target="_blank">View source of this portfolio on GitHub</a>
+		<section id="social">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/malmatar" class="zocial-facebook">Facebook</a>
+			<a href="https://plus.google.com/share?url=https://github.com/malmatar" class="zocial-googleplus">Google+</a>
+		</section>
+	</footer>
+
+<!--Modals-->
+	<section class="modal fade" id="resume-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-resume" aria-hidden="true">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<section class="modal-header">
+					<h4 class="modal-title" id="myModalLabel-resume">Resume</h4>
+				</section>
+				<section class="modal-body">
+					Some description for the project
+				</section>
+				<section class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+	<section class="modal fade" id="arcade-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-arc" aria-hidden="true">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<section class="modal-header">
+					<h4 class="modal-title" id="myModalLabel-arc">Arcade Game</h4>
+				</section>
+				<section class="modal-body">
+					Some description for the project
+				</section>
+				<section class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+	<section class="modal fade" id="opt-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-opt" aria-hidden="true">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<section class="modal-header">
+					<h4 class="modal-title" id="myModalLabel-opt">Website Optimization</h4>
+				</section>
+				<section class="modal-body">
+					Some description for the project
+				</section>
+				<section class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+	<section class="modal fade" id="map-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-map" aria-hidden="true">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<section class="modal-header">
+					<h4 class="modal-title" id="myModalLabel-map">Neighborhood Map</h4>
+				</section>
+				<section class="modal-body">
+					Some description for the project
+				</section>
+				<section class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+	<section class="modal fade" id="feed-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-feed" aria-hidden="true">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<section class="modal-header">
+					<h4 class="modal-title" id="myModalLabel-feed">Feed Reader Testing</h4>
+				</section>
+				<section class="modal-body">
+					Some description for the project
+				</section>
+				<section class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+	<section class="modal fade" id="atm-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-atm" aria-hidden="true">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<section class="modal-header">
+					<h4 class="modal-title" id="myModalLabel-atm">ATM Machine</h4>
+				</section>
+				<section class="modal-body">
+					Some description for the project
+				</section>
+				<section class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+</body>
+</html>
